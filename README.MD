@@ -4,7 +4,7 @@
 
 基于官方文档构建，WebHook 部分暂未测试，不保证可用。
 
-主动请求部分已完成测试，如遇问题欢迎 [issue](https://github.com/JackuXL/afdian-kotlin-sdk/issue) 反馈。
+主动请求部分已完成测试，如遇问题欢迎 [issue](https://github.com/JackuXL/afdian-kotlin-sdk/issues) 反馈。
 
 ## 使用
 ```kotlin

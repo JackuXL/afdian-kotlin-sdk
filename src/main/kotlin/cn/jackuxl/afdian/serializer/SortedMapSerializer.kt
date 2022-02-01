@@ -8,7 +8,7 @@ import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 
 
-object SortedMapSerializer: KSerializer<Map<String, String>> {
+object SortedMapSerializer : KSerializer<Map<String, String>> {
     private val mapSerializer = MapSerializer(String.serializer(), String.serializer())
 
     override val descriptor: SerialDescriptor = mapSerializer.descriptor

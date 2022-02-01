@@ -1,5 +1,5 @@
 package cn.jackuxl.afdian
 
-fun main(){
+fun main() {
 
 }

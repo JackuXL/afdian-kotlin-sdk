@@ -7,9 +7,9 @@ data class AfdianWebHookDataParam(
     /**
      * 类型
      */
-    var type:String,
+    var type: String,
     /**
      * 订单
      */
-    var order:AfdianWebHookOrderParam
+    var order: AfdianWebHookOrderParam
 )

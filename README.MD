@@ -9,14 +9,14 @@
 ## 使用
 ```kotlin
 val afdian = Afdian(
-    // 用户ID
+    // UserId
     userId,
-    // 登录凭证
+    // Token
     token
 )
 
 // ping 请求
-afdian.ping()
+afdian.ping(params)
 
 // 获取订单列表
 afdian.queryOrder(params)

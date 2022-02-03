@@ -1,2 +1,10 @@
 # 项目排除路径
 /.gradle/
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/build
